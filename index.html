@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖💖Bestie's BIRTHDAY💖🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Music Player -->
+    <div class="music-player" id="musicPlayer">
+        <button class="music-toggle" id="musicToggle">
+            <span class="music-icon">🎵</span>
+        </button>
+        <audio id="backgroundMusic" loop>
+            <!-- ADD YOUR SONG HERE: Replace 'your-song.mp3' with your song file path -->
+            <source src="music/Tu Hain Toh Main Hoon.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Landing Section -->
+    <section class="landing" id="landing">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div>
+        <div class="landing-content">
+            <div class="countdown" id="countdown">
+                <span class="number">3</span>
+            </div>
+            <h1 class="main-title">
+                <span class="title-line">Crafting your</span>
+                <span class="title-line highlight">special moment...</span>
+                <span class="title-line highlight">Rudrakshii jii🧿💖✨</span>
+            </h1>
+            <div class="scroll-indicator">
+                <span>Scroll down</span>
+                <div class="arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="messageSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">A Special Message</h2>
+                <div class="heart-decoration">💖</div>
+            </div>
+            <div class="message-card">
+                <div class="message-content">
+                    <!-- ADD YOUR MESSAGE HERE: Replace this text with your personal message -->
+                    <p class="message-text">
+                        Dear Bestie,<br><br>
+                        On this special day, I want you to tell how incredibly amazing you are! 
+                        You bring so much joy, laughter, and happiness into my life. 
+                        Today is all about celebrating YOU and the wonderful person you are!<br><br>
+                        Wishing you the happiest of birthdays filled with love, laughter, and unforgettable memories! 🎂✨
+                    </p>
+                    <div class="signature">- Your Best Friend Forever 💕</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 22 Years Ago Section -->
+    <section class="years-ago-section" id="yearsAgoSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">A Special Day</h2>
+                <div class="heart-decoration">🎂</div>
+            </div>
+            <div class="years-ago-card">
+                <div class="years-ago-content">
+                    <p class="years-ago-text">
+                        22 years ago, my bestie was born on this day...<br><br>
+                        And what an incredible blessing that was! 🌟<br><br>
+                        Every year since then, you've grown into an even more amazing person, 
+                        bringing light, joy, and endless laughter into the lives of everyone around you.<br><br>
+                        Today, we celebrate not just another year, but the beautiful journey of 22 years 
+                        of that you have completed and the almost one year of special friendship bond,
+                        memories, and countless moments that we have completed have made life so much brighter! ✨
+                    </p>
+                    <div class="celebration-icons">
+                        <span class="celeb-icon">🎈</span>
+                        <span class="celeb-icon">🎉</span>
+                        <span class="celeb-icon">🎁</span>
+                        <span class="celeb-icon">🎂</span>
+                        <span class="celeb-icon">✨</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallerySection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Beautiful Memories</h2>
+                <div class="heart-decoration">📸</div>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- ADD YOUR PHOTOS HERE: 
+                    1. Create a folder named 'photos' in your project
+                    2. Add your photo files (jpg, png, etc.)
+                    3. Replace 'photo1.jpg', 'photo2.jpg', etc. with your actual photo filenames
+                    4. Add more <div class="gallery-item"> blocks for more photos
+                -->
+                <div class="gallery-item">
+                    <img src="photos/photo1.jpg" alt="Memory 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Beautiful Moment 💫</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo2.jpg" alt="Memory 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Amazing Times ✨</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo3.jpg" alt="Memory 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Unforgettable Memories 🌟</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo4.jpg" alt="Memory 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Special Moments 💖</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo5.jpg" alt="Memory 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Cherished Times 🎈</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo6.jpg" alt="Memory 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Love & Laughter 💕</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo7.jpg" alt="Memory 7" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Good Times💕</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo8.jpg" alt="Memory 8" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Fun Moments✨</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="photos/photo9.jpg" alt="Memory 9" loading="lazy">
+                    <div class="gallery-overlay">
+                        <p>Forever Friends🫂</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section class="wishes-section" id="wishesSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Birthday Wishes</h2>
+                <div class="heart-decoration">🎁</div>
+            </div>
+            <div class="wishes-container">
+                <!-- ADD MORE WISHES HERE: Copy the wish-card div and customize -->
+                <div class="wish-card">
+                    <div class="wish-icon">🎂</div>
+                    <p class="wish-text">May your day be filled with endless joy and happiness!</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🌟</div>
+                    <p class="wish-text">Wishing you all the success and dreams come true!</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">💝</div>
+                    <p class="wish-text">May you be surrounded by love and laughter always!</p>
+                </div>
+                <div class="wish-card">
+                    <div class="wish-icon">🎈</div>
+                    <p class="wish-text">Here's to another amazing year of adventures together!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cake Cutting Section -->
+    <section class="cake-section" id="cakeSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Cut the Cake!</h2>
+                <div class="heart-decoration">🎂</div>
+            </div>
+            <div class="cake-container">
+                <div class="cake-decoration-panel" id="decorationPanel">
+                    <h3>Decorate Your Cake</h3>
+                    <div class="decoration-options">
+                        <button class="decoration-btn" data-decoration="candles">🕯️ Add Candles</button>
+                        <button class="decoration-btn" data-decoration="sprinkles">✨ Add Sprinkles</button>
+                        <button class="decoration-btn" data-decoration="flowers">🌸 Add Flowers</button>
+                        <button class="decoration-btn" data-decoration="stars">⭐ Add Stars</button>
+                        <button class="decoration-btn" data-decoration="reset">🔄 Reset</button>
+                    </div>
+                </div>
+                <div class="cake-wrapper">
+                    <div class="cake" id="birthdayCake">
+                        <div class="cake-base"></div>
+                        <div class="cake-middle"></div>
+                        <div class="cake-top"></div>
+                        <div class="cake-frosting"></div>
+                        <div class="cake-decorations" id="cakeDecorations"></div>
+                        <div class="cake-candles" id="cakeCandles"></div>
+                    </div>
+                    <div class="cutting-line" id="cuttingLine"></div>
+                </div>
+                <div class="cake-controls">
+                    <button class="cut-cake-btn" id="cutCakeBtn">🎂 Cut the Cake!</button>
+                    <p class="instruction-text">Click to cut the cake and celebrate!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Her Section -->
+    <section class="about-her-section" id="aboutHerSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Her 🌼</h2>
+                <div class="heart-decoration">💖</div>
+            </div>
+            <div class="about-grid">
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">👤</div>
+                    <div class="about-label">Name</div>
+                    <div class="about-value">Rudrakshii jii ❤🧿✨</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">📏</div>
+                    <div class="about-label">Height</div>
+                    <div class="about-value">5'6"</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">👀</div>
+                    <div class="about-label">Eye Color</div>
+                    <div class="about-value">Black</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🎂</div>
+                    <div class="about-label">Birthdate</div>
+                    <div class="about-value">17th Nov, 2003 😍</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">👟</div>
+                    <div class="about-label">Shoe Size</div>
+                    <div class="about-value">7</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🎨</div>
+                    <div class="about-label">Fav Color</div>
+                    <div class="about-value">Red, Black ✨</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">⭐</div>
+                    <div class="about-label">Mole</div>
+                    <div class="about-value">Waist</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🐦</div>
+                    <div class="about-label">Animals</div>
+                    <div class="about-value">Birds</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">💇</div>
+                    <div class="about-label">Hair Color</div>
+                    <div class="about-value">Black</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">✨</div>
+                    <div class="about-label">Hair Type</div>
+                    <div class="about-value">Curly, Straight</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🥭</div>
+                    <div class="about-label">Fav Fruit</div>
+                    <div class="about-value">Mango</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🍜</div>
+                    <div class="about-label">Food</div>
+                    <div class="about-value">Maggi, Fried Rice<br><small>(Khaana bhut pasand hain unko)</small></div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🥤</div>
+                    <div class="about-label">Cold Drink</div>
+                    <div class="about-value">Coke</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🍫</div>
+                    <div class="about-label">Chocolate</div>
+                    <div class="about-value">KitKat ❤</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🏏</div>
+                    <div class="about-label">Game</div>
+                    <div class="about-value">Basketball, Cricket</div>
+                </div>
+                <div class="about-item" data-animate="fadeInUp">
+                    <div class="about-icon">🍰</div>
+                    <div class="about-label">Dessert</div>
+                    <div class="about-value">Waffle, Kaju Katli</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Things I Love About Her Section -->
+    <section class="love-about-her-section" id="loveAboutHerSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Things I Love About Her 💕</h2>
+                <div class="heart-decoration">💖</div>
+            </div>
+            <div class="love-grid">
+                <div class="love-item" data-animate="slideInLeft">
+                    <div class="love-icon">😊</div>
+                    <div class="love-text">Her cute smile</div>
+                </div>
+                <div class="love-item" data-animate="slideInRight">
+                    <div class="love-icon">👀</div>
+                    <div class="love-text">Her eyes</div>
+                </div>
+                <div class="love-item" data-animate="slideInLeft">
+                    <div class="love-icon">💝</div>
+                    <div class="love-text">Her care for me</div>
+                </div>
+                <div class="love-item" data-animate="slideInRight">
+                    <div class="love-icon">🤗</div>
+                    <div class="love-text">Her understanding</div>
+                </div>
+                <div class="love-item" data-animate="slideInLeft">
+                    <div class="love-icon">✋</div>
+                    <div class="love-text">Her hands</div>
+                </div>
+                <div class="love-item" data-animate="slideInRight">
+                    <div class="love-icon">🙏</div>
+                    <div class="love-text">Her respect for me</div>
+                </div>
+                <div class="love-item" data-animate="slideInLeft">
+                    <div class="love-icon">😤</div>
+                    <div class="love-text">Her anger</div>
+                </div>
+                <div class="love-item" data-animate="slideInRight">
+                    <div class="love-icon">💖</div>
+                    <div class="love-text">Her loyalty and love</div>
+                </div>
+                <div class="love-item" data-animate="slideInLeft">
+                    <div class="love-icon">👱🏻‍♀</div>
+                    <div class="love-text">Her hair</div>
+                </div>
+                <div class="love-item" data-animate="slideInRight">
+                    <div class="love-icon">🎤</div>
+                    <div class="love-text">Her voice</div>
+                </div>
+                <div class="love-item" data-animate="slideInLeft">
+                    <div class="love-icon">👗</div>
+                    <div class="love-text">Her desi look</div>
+                </div>
+                <div class="love-item special-love" data-animate="zoomIn">
+                    <div class="love-icon">💕</div>
+                    <div class="love-text">Everything about her ❤</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shayari Section -->
+    <section class="shayari-section" id="shayariSection">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">कुछ शब्द दिल से 💝</h2>
+                <div class="heart-decoration">📜</div>
+            </div>
+            <div class="shayari-container">
+                <div class="shayari-card" data-animate="fadeInUp">
+                    <div class="shayari-icon">🌹</div>
+                    <div class="shayari-text">
+                        <p class="shayari-line"> Humne chaha hai tumko aise jaise shahjahaan ne mumtaaz ko.</p>
+                        <p class="shayari-line"> Nibhaya hai rishta humne aapse  humesa jaise radhe ke sang krishna ho </p>
+                        <p class="shayari-line"> Khona nhi chahte kabhi aapko iss zindagi mein</p>
+                        <p class="shayari-line highlight-line">Humesa aaj bhi yaad karte hain hum, aapke saath bitaaye harr pal ko🥺♥</p>
+                    </div>
+                </div>
+                
+                
+                <div class="shayari-card" data-animate="fadeInUp">
+                    <div class="shayari-icon">💫</div>
+                    <div class="shayari-text">
+                        <p class="shayari-line">तू अंजान होके भी कुछ अपने जैसी लगी,</p>
+                        <p class="shayari-line">तेरे तक्लीफों को जब सुना तो तेरी हर एक तकलिफ कुछ अपने जैसी लगी,</p>
+                        <p class="shayari-line">पता नहीं तेरी परेशानीयों को अब कैसे खत्म करूंगा, पर तेरे साथ जब तक हूँ, हर मोड़ पे तेरा साथ निभाऊंगा,</p>
+                        <p class="shayari-line highlight-line">तुझे दुसरो की तरह न कभी परेशान और ना तन्हा छोड़ के जाऊँगा... अगर तेरा भी मन करें तो कहना सारी उमर तेरा एक अच्छा दोस्त बन के रह जाऊँगा... 💞💞</p>
+                    </div>
+                </div>
+                
+       
+                <div class="shayari-card" data-animate="fadeInUp">
+                    <div class="shayari-icon">🌙</div>
+                    <div class="shayari-text">
+                        <p class="shayari-line">यूं अकेले खड़ा होकर कुछ तेरे बारे में सोचा करता हूँ...</p>
+                        <p class="shayari-line">दूर खड़ी हो तुम, ऐसे खुद को समझाया करता हूँ...</p>
+                        <p class="shayari-line">जब भी याद आती है तुम्हारी, तो उस चाँद को देख लिया करता हूँ...</p>
+                        <p class="shayari-line highlight-line">जब भी तन्हा महसूस किया, तो आँख बंद कर तेरे खयालों में खोया करता हूँ... 💖</p>
+                    </div>
+                </div>
+
+
+
+                <div class="shayari-card special-shayari" data-animate="zoomIn">
+                    <div class="shayari-icon">💕</div>
+                    <div class="shayari-text">
+                        <p class="shayari-line special-line">तुम हो मेरी सबसे अच्छी दोस्त,</p>
+                        <p class="shayari-line special-line">तुम हो मेरी हर खुशी का कारण,</p>
+                        <p class="shayari-line special-line">आज और हमेशा,</p>
+                        <p class="shayari-line special-line highlight-line">तुम्हारे लिए मेरा प्यार बना रहेगा! ❤️</p>
+                    </div>
+                </div>
+            </div>
+            <div class="shayari-footer">
+                <p class="shayari-signature">- तुम्हारा Best Friend 💝</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Message Section -->
+    <section class="final-section" id="finalSection">
+        <div class="container">
+            <div class="final-content">
+                <h2 class="final-title">Happy Birthday Betuu!</h2>
+                <p class="final-message">
+                    <!-- ADD YOUR FINAL MESSAGE HERE -->
+                    You deserve all the happiness in the world!✨
+                    Thank you for being such an amazing friend.🫂 
+                    I hope our bond grows stronger with each passing year.🫶🥺 
+                    Also thank you for being there for me in my tough times and supporting me always ♥🥺 
+                    You will be always special to me and I will always be there for you no matter what🫂💖
+                    SORRY for anything that made you upset in past by me , I will try my best to not repeat them again🙏😔
+                    And will always try to make you happy and see you smileyy✨
+                    Once again, Happy Birthday Rudrakshii jii!🎉🎂
+                    Here 's to many more years of friendship and unforgettable memories!🥳✨
+                    <p style="text-align:center; font-weight:700; font-size:1.1rem; margin:1rem 0;">#best friend forever <span aria-hidden="true">💖</span></p>
+                    <br><br>
+                    Love always,<br>
+                    - Your Best Friend 💕
+                </p>
+                <div class="celebration">
+                    <span class="emoji">🎂</span>
+                    <span class="emoji">🎉</span>
+                    <span class="emoji">🎈</span>
+                    <span class="emoji">🎁</span>
+                    <span class="emoji">✨</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Confetti Effect -->
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
